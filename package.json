@@ -59,13 +59,5 @@
     "project": ["src/**"],
     "ignore": ["src/internal/**", "src/generated.ts"],
     "ignoreDependencies": ["@tanstack/react-query", "react", "wagmi"]
-  },
-  "size-limit": [
-    {
-      "name": "import * from 'ox'",
-      "path": "./src/_dist/index.js",
-      "import": "*",
-      "limit": "54 kB"
-    }
-  ]
+  }
 }

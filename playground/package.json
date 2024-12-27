@@ -6,18 +6,18 @@
     "dev": "vite"
   },
   "dependencies": {
-    "porto": "workspace:*",
     "ox": "^0.2.2",
-    "react": "catalog:",
-    "react-dom": "catalog:",
-    "viem": "catalog:"
+    "porto": "workspace:*",
+    "react": "*",
+    "react-dom": "*",
+    "viem": "*"
   },
   "devDependencies": {
-    "@types/react": "catalog:",
-    "@types/react-dom": "catalog:",
+    "@types/react": "*",
+    "@types/react-dom": "*",
     "@vitejs/plugin-react": "^4.3.1",
     "globals": "^15.9.0",
-    "typescript": "^5.5.3",
+    "typescript": "*",
     "vite": "^5.4.1"
   }
 }

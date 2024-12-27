@@ -1,0 +1,39 @@
+{
+  "name": "@porto/expo-passkeys",
+  "version": "0.1.0",
+  "description": "Passkeys for Expo apps",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "NODE_OPTIONS=--max_old_space_size=4096 expo-module build",
+    "build:watch": "expo-module build --watch",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module",
+    "postinstall": "yarn build"
+  },
+  "author": "mike perhats",
+  "homepage": "https://github.com/Palette-Labs-Inc",
+  "keywords": ["react-native", "expo", "porto-expo-passkeys", "ExpoPasskeys"],
+  "license": "MIT",
+  "dependencies": {
+    "@scure/base": "^1.1.3",
+    "text-encoding-polyfill": "^0.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "*",
+    "@types/react": "*",
+    "eslint": "^8.0.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "expo-module-scripts": "^4.0.2",
+    "prettier": "^3.3.2",
+    "typescript": "*"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  }
+}
